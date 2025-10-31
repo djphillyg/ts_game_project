@@ -1,5 +1,0 @@
-{
-  "scripts": {
-    "test": "npx ts-node audioBuffer.ts"
-  }
-}
