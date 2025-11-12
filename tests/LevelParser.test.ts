@@ -12,8 +12,8 @@ describe('LevelParser', () => {
 
       expect(result.levelName).toBe('test-level');
       expect(result.playerPos).toEqual({ x: 1, y: 1 });
-      expect(result.boxes.has('2,1')).toBe(true);
-      expect(result.goals.has('3,1')).toBe(true);
+      expect(result.boxes.has('1,2')).toBe(true);
+      expect(result.goals.has('1,3')).toBe(true);
     });
 
     it('should parse walls correctly', () => {
